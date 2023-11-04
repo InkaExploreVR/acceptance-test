@@ -3,7 +3,7 @@ Feature: US02: Inicio de Sesión en IncaExploreVR
   quiero poder iniciar sesión en la plataforma 
   para acceder a las herramientas educativas y contenido interactivo. 
 
-Scenario: Inicio de Sesión Exitoso  
+Scenario: Inicio de Sesión Exitoso       
 
 Given un usuario ya está registrado en "IncaExploreVR"  
 When visita la página de inicio de la plataforma  
