@@ -4,7 +4,7 @@ Feature: US11: Interacción con Personaje Histórico
   quiero poder interactuar con personajes históricos en la aplicación 
   para obtener una experiencia educativa más inmersiva y enriquecedora. 
 
-Scenario: Conversación con Personaje Histórico
+Scenario: Conversación con personaje histórico
 
   Dado que un <estudiante> está explorando un sitio turístico en la plataforma "IncaExploreVR" que presenta personajes históricos.
   Y se encuentra cerca de un <personaje histórico> dentro de la experiencia de realidad virtual
@@ -22,7 +22,7 @@ Examples: Datos de salida
     | Comando de voz              | Seleccion de respuestas en pantalla | Responde de manera interactiva | Continuar explorando | Interactuar         |
     | "Hola Francisco Pizarro..." | "Mostrar evento relevante"          |  Detalles históricos           | Exploración continua | "Otra conversación" |
 
-Scenario: Interacción como Espectador 
+Scenario: Interacción como espectador 
 
 Dado que un <estudiante> está explorando un sitio turístico que presenta una <representación de un evento histórico> o una escena de la vida cotidiana. 
 Cuando el <estudiante> opta por ser espectador 
