@@ -22,3 +22,4 @@ And el profesor identifica información incorrecta o necesita más detalles sobr
 Then el profesor tiene la opción de marcar la información como <"Dudosa"> o <"Necesita verificación"> 
 dentro de la fuente de información.
 And el sistema registra esta marcación para su revisión por parte del equipo de moderación de contenido.
+And el sistema encuentra que lo marcado es incorrecto.
